@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-bedl
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0014-tenant/tkrw-pr712-0075-0014-app/devfile-sample-bedl@sha256:26eb8bfbe215eef4bf0ace2c35ba67cd9c3b56686fcaac4174106890d8bb8d9d
         name: my-nodejs
         ports:
         - containerPort: 3001
